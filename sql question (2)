@@ -1,0 +1,41 @@
+Select customer
+
+from  Texas
+
+joins table
+70
+
+
+select last_name, first, sum (amout)
+from customer
+where customer_id in (
+	select customer_id
+	from payment
+	group by customer_id
+	having sum (amount) >= 175
+	
+	
+	
+	
+SELECT amount
+FROM payment          
+WHERE customer_id 
+GROUP BY payment,amount
+HAVING 
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+	
+
+	
